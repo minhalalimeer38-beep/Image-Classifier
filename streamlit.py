@@ -11,7 +11,7 @@ if file:
 
     if st.button("Predict"):
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://minhalali12-image-classifier.hf.space/docs#/default/predict_predict_post",
             files={"file": file.getvalue()}
         )
 
